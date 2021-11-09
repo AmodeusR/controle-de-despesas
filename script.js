@@ -16,7 +16,7 @@ const atualizarLocalStorage = () => {
 
 // Processamento de dados
 
-const $adicionarTransação = document.querySelector(".btn").addEventListener("click", processarTransação => {
+const $adicionarTransação = document.querySelector(".btn").addEventListener("click", () => {
   const $nomeTransação = document.querySelector("#text");
   const $valorTransação = document.querySelector("#amount");
 
